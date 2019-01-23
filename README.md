@@ -1,8 +1,6 @@
 # Telegram-chatbot
 一个聊天机器人，Netrvin的telegram-pm-chat-bot的修改版
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ecee7fc9ba4f4ddba39c2fe8ce539d2a)](https://app.codacy.com/app/131/telegram-pm-chat-bot?utm_source=github.com&utm_medium=referral&utm_content=Netrvin/telegram-pm-chat-bot&utm_campaign=Badge_Grade_Dashboard)
-
 Telegram 私聊机器人
 Telegram Private Message Chat Bot
 
