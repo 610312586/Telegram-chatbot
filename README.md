@@ -116,6 +116,8 @@ Reply `unban` to a message or send `/unban <User ID>` to unban a user
 ## 安装
 补充说明，补充内容无英文版。
 增加了三个命令：
+| Command                 | 用途                      |
+| :---                    | :---                     |
 | /clearadmin             | 清除当前已经设置的管理员     |
 | /adminlogin             | Manager接管Admin的权限     |
 | /logout                 | Manager取消控制Admin的bot  |
