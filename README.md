@@ -16,7 +16,7 @@ Telegram Private Message Chat Bot
 * Install Python and pip, then use pip to install `python-telegram-bot`
 
 ### 配置 (Configuration)
-打开`config.json`并配置
+打开`config-default.json`重命名为`config.json`并配置
 ```json
 {
     "Admin": 0,
@@ -24,10 +24,14 @@ Telegram Private Message Chat Bot
     "Token": "",
     "//2": "机器人Token",
     "Lang": "zh",
-    "//3": "语言包名称"
+    "//3": "语言包名称",
+    "manager8": 1,
+    "manager7": 1,
+    "manager6": 1,
+    "//6": "以上三行可以是最多三个管理员或者bot测试者、开发者"
 }
 ```
-如果在前一步未设置管理员用户ID，第一个对机器人发送`/setadmin`的用户将成为管理员，之后可通过修改`config.json`修改管理员
+如果在前一步未设置管理员用户ID，第一个对机器人发送`/setadmin`的用户将成为管理员，之后可通过修改`config.json`修改管理员，三个测试者（开发者）可以用`/clearadmin`清除已经设置的管理员
 
 Open `config.json` and configure
 ```json
@@ -37,7 +41,11 @@ Open `config.json` and configure
     "Token": "",
     "//2": "Bot Token",
     "Lang": "en",
-    "//3": "Language Pack Name (Be careful! It's 'en'!)"
+    "//3": "Language Pack Name (Be careful! It's 'en'!)",
+    "manager8": 1,
+    "manager7": 1,
+    "manager6": 1,
+    "//6": "the three managers more powerful than admin"
 }
 ```
 If you didn't set admin's ID previously, the user who sends `/setadmin` to the bot first will become the admin. You can edit `config.json` to change admin later.
@@ -104,3 +112,10 @@ Reply `unban` to a message or send `/unban <User ID>` to unban a user
 | /info                  | Inquire sender identity                    |
 | /ban                   | Ban a user                                 |
 | /unban <ID (optional)> | Unban a user                               |
+
+## 安装
+补充说明，补充内容无英文版。
+增加了三个命令：
+| /clearadmin             | 清除当前已经设置的管理员     |
+| /adminlogin             | Manager接管Admin的权限     |
+| /logout                 | Manager取消控制Admin的bot  |
