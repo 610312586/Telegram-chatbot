@@ -111,9 +111,26 @@ Reply `unban` to a message or send `/unban <User ID>` to unban a user
 | /ban                   | Ban a user                                 |
 | /unban <ID (optional)> | Unban a user                               |
 
-## 补充说明，补充内容无英文版。增加了三个命令：
+## 2018年9月23日发布：增加了三个命令：
 | Command                 | 用途                      |
 | :---                    | :---                     |
 | /clearadmin             | 清除当前已经设置的管理员     |
 | /adminlogin             | Manager接管Admin的权限     |
 | /logout                 | Manager取消控制Admin的bot  |
+
+## 2018年9月26日发布：增加了六个命令，增加撤回消息功能：
+| Command           | 用途                              |
+| :---              | :---                              |
+| /answer           | 锁定一个回复对象，直接发消息会回复给它 |
+| /delete           | 为接收消息的人删除一条消息（撤回）     |
+| /r  /reply        | 查看快捷回复列表                    |
+| /setr0 /setreply0 | 设置快捷回复0，共有0~9十个快捷回复    |
+| /r0  /:0          | 发送快捷回复为0的消息，共有0~9十个    |
+
+## 下一版发布计划：增加设置自动回复和忙碌状态自动回复功能：
+| Command           | 用途                                 |
+| :---              | :---                                 |
+| /iambusy <消息>    | 进入忙碌状态，消息为空则为退出忙碌状态    |
+| /autoreply <消息>  | 收到消息后自定义回复消息，留空取消自动回复 |
+
+
