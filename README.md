@@ -126,6 +126,7 @@ Reply `unban` to a message or send `/unban <User ID>` to unban a user
 | /r  /reply        | 查看快捷回复列表                    |
 | /setr0 /setreply0 | 设置快捷回复0，共有0~9十个快捷回复    |
 | /r0  /reply0      | 发送快捷回复为0的消息，共有0~9十个    |
+
 PS：/:6、/:7、/:8将把消息强制回复给三个管理，若无设置则当前管理收到消息。
 
 ## 下一版发布计划：增加设置自动回复和忙碌状态自动回复功能：
