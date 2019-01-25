@@ -128,6 +128,7 @@ Reply `unban` to a message or send `/unban <User ID>` to unban a user
 | /r0  /reply0      | 发送快捷回复为0的消息，共有0~9十个    |
 
 PS：/:6、/:7、/:8将把消息强制回复给三个管理，若无设置则当前管理收到消息。
+修复了一个小bug：一些人会把config.json这个文件设置为只读以保护配置信息，这样/setadmin命令将设置为不可用（之前会报错）。
 
 ## 下一版发布计划：增加设置自动回复和忙碌状态自动回复功能：
 | Command           | 用途                                 |
